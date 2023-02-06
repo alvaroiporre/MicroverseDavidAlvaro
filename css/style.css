@@ -7,6 +7,8 @@
     height: 100%;
     border-right: solid;
     position: fixed;
+    border-color: black;
+    border-bottom: solid;
 }
 
 header {
@@ -20,13 +22,19 @@ header {
   #navbar a {
     display: block;
     padding: 10px 30px;
+    color: purple;
     text-decoration: none;
     cursor: pointer;
+    border-bottom: 1px solid;
   }
+
+#main-types {
+    border-top: 1px solid;
+}
 
   #main-doc {
     position: absolute;
-    margin-left: 310px;
+    margin-left: 260px;
     padding: 20px;
     margin-bottom: 110px;
   }
